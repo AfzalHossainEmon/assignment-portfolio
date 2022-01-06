@@ -8,12 +8,13 @@ h1{
 {
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+
 }
 .half-width{
     width: 50% ;
-    padding:left 20%;
+    margin-left: 5%;
 }
 .half-width img{
       width: 50%;
@@ -25,4 +26,28 @@ section{
     font-weight: 700;
     border-radius: 5px;
 
+}
+.my-mission-2022 h1{
+    text-align: center;
+}
+.mission-item{
+    width: 25%;
+    margin-left: 5%;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: palegoldenrod;
+}
+.mission-item img{
+    width: 50%;
+}
+.devlop-picture{
+    width: 30%;
+}
+.devlop-contain{
+    width: 60%;
+    margin-left: 5%;
+}
+.devlop{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
